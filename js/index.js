@@ -123,3 +123,11 @@ mySignature.style.textAlign = 'center';
 mySignature.style.marginTop = '10px';
 
 div.prepend(mySignature);
+
+//Added element 2
+const contactParent = document.getElementById('nav-item-6');
+const contactChildAppend = document.createElement('a');
+
+contactChildAppend.textContent = '???'
+
+contactParent.appendChild(contactChildAppend);
